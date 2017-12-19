@@ -1,3 +1,7 @@
+#MOTOROLA X4 BLOBS  (WORK IN PROGRESS!)
+
+PRODUCT_COPY_FILES += \
+#Camera
 vendor/motorola/payton/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
