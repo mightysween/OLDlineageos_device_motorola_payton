@@ -21,10 +21,10 @@ vendor/motorola/payton/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl
 vendor/motorola/payton/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
 vendor/motorola/payton/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-warning: blob file libESXEGL_adreno.so missing or broken
-warning: blob file libRBEGL_adreno.so missing or broken
-warning: blob file libESXGLESv2_adreno.so missing or broken
-warning: blob file libRBGLESv2_adreno.so missing or broken
+#warning: blob file libESXEGL_adreno.so missing or broken
+#warning: blob file libRBEGL_adreno.so missing or broken
+#warning: blob file libESXGLESv2_adreno.so missing or broken
+#warning: blob file libRBGLESv2_adreno.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
 vendor/motorola/payton/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
@@ -37,12 +37,12 @@ vendor/motorola/payton/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vend
 vendor/motorola/payton/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
 vendor/motorola/payton/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
 vendor/motorola/payton/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-warning: blob file eglSubDriverX11.so missing or broken
-warning: blob file libeglSubDriverQnx.so missing or broken
-warning: blob file libeglSubDriverWayland.so missing or broken
-warning: blob file libeglSubDriverFbdev.so missing or broken
-warning: blob file eglSubDriverLE.so missing or broken
-warning: blob file eglSubDriverDummy.so missing or broken
+#warning: blob file eglSubDriverX11.so missing or broken
+#warning: blob file libeglSubDriverQnx.so missing or broken
+#warning: blob file libeglSubDriverWayland.so missing or broken
+#warning: blob file libeglSubDriverFbdev.so missing or broken
+#warning: blob file eglSubDriverLE.so missing or broken
+#warning: blob file eglSubDriverDummy.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
 vendor/motorola/payton/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
 vendor/motorola/payton/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
@@ -53,10 +53,10 @@ vendor/motorola/payton/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/l
 vendor/motorola/payton/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
 vendor/motorola/payton/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 vendor/motorola/payton/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-warning: blob file libGLESv2S3D_adreno.so missing or broken
+#warning: blob file libGLESv2S3D_adreno.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 vendor/motorola/payton/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-warning: blob file libfcvopt.so missing or broken
+#warning: blob file libfcvopt.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
 vendor/motorola/payton/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
@@ -98,7 +98,7 @@ vendor/motorola/payton/proprietary/lib64/libjson.so:system/lib64/libjson.so \
 vendor/motorola/payton/proprietary/lib/libjson.so:system/lib/libjson.so \
 vendor/motorola/payton/proprietary/lib64/libbson.so:system/lib64/libbson.so \
 vendor/motorola/payton/proprietary/lib/libbson.so:system/lib/libbson.so \
-warning: blob file sensors.hal.tof.so missing or broken
+#warning: blob file sensors.hal.tof.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
@@ -147,7 +147,7 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-warning: blob file lib_2 missing or broken
+#warning: blob file lib_2 missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
@@ -166,10 +166,10 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.s
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_sat_dummy_lib.so:system/vendor/lib/libmmcamera_sat_dummy_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-warning: blob file libmmcamera_wavelet_lib.so missing or broken
+#warning: blob file libmmcamera_wavelet_lib.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
-warning: blob file libmmcamera_cac_lib.so missing or broken
-warning: blob file libmmcamera_cac2_lib.so missing or broken
+#warning: blob file libmmcamera_cac_lib.so missing or broken
+#warning: blob file libmmcamera_cac2_lib.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
 vendor/motorola/payton/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -178,7 +178,7 @@ vendor/motorola/payton/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib
 vendor/motorola/payton/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-warning: blob file libc2d2.so missing or broken
+#warning: blob file libc2d2.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub2.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_ov5695_eeprom.so:system/vendor/lib/libmmcamera_mot_ov5695_eeprom.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
@@ -186,11 +186,11 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/v
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-warning: blob file libCL.so missing or broken
+#warning: blob file libCL.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-warning: blob file libllvd_smore.so missing or broken
+#warning: blob file libllvd_smore.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
 vendor/motorola/payton/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
@@ -198,8 +198,8 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa_eeprom.so
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_gt24c128b_rgb_eeprom.so:system/vendor/lib/libmmcamera_gt24c128b_rgb_eeprom.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
-warning: blob file libirml.so missing or broken
-warning: blob file libtbbmalloc.so missing or broken
+#warning: blob file libirml.so missing or broken
+#warning: blob file libtbbmalloc.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
@@ -207,7 +207,7 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_imx386_mono.so:system/
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
 vendor/motorola/payton/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-warning: blob file libstillmore.so missing or broken
+#warning: blob file libstillmore.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
 vendor/motorola/payton/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
 vendor/motorola/payton/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
@@ -222,11 +222,11 @@ vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:sys
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
 vendor/motorola/payton/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
 vendor/motorola/payton/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-warning: blob file libmmcamera_ubifocus_lib.so missing or broken
+#warning: blob file libmmcamera_ubifocus_lib.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
-warning: blob file libmmcamera_sw_tnr.so missing or broken
+#warning: blob file libmmcamera_sw_tnr.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
 vendor/motorola/payton/proprietary/vendor/lib64/libremosaiclib.so:system/vendor/lib64/libremosaiclib.so \
 vendor/motorola/payton/proprietary/vendor/lib/libremosaiclib.so:system/vendor/lib/libremosaiclib.so \
@@ -234,8 +234,8 @@ vendor/motorola/payton/proprietary/vendor/lib64/libremosaic_daemon.so:system/ven
 vendor/motorola/payton/proprietary/vendor/lib64/libremosaic_tuning.so:system/vendor/lib64/libremosaic_tuning.so \
 vendor/motorola/payton/proprietary/vendor/lib/libremosaic_tuning.so:system/vendor/lib/libremosaic_tuning.so \
 vendor/motorola/payton/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-warning: blob file libmmcamera_dcrf_lib.so missing or broken
-warning: blob file libmmcamera_bincorr.so missing or broken
+#warning: blob file libmmcamera_dcrf_lib.so missing or broken
+#warning: blob file libmmcamera_bincorr.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_sac_lib.so:system/vendor/lib/libmmcamera_sac_lib.so \
 vendor/motorola/payton/proprietary/lib64/libmemalloc.so:system/lib64/libmemalloc.so \
 vendor/motorola/payton/proprietary/lib64/libqdutils.so:system/lib64/libqdutils.so \
@@ -243,8 +243,8 @@ vendor/motorola/payton/proprietary/lib64/libqservice.so:system/lib64/libqservice
 vendor/motorola/payton/proprietary/lib/libqservice.so:system/lib/libqservice.so \
 vendor/motorola/payton/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
 vendor/motorola/payton/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-warning: blob file libmmcamera_bokeh.so missing or broken
-warning: blob file libmmcamera_bp_svhdr.so missing or broken
+#warning: blob file libmmcamera_bokeh.so missing or broken
+#warning: blob file libmmcamera_bp_svhdr.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
 vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -408,7 +408,7 @@ vendor/motorola/payton/proprietary/vendor/lib/libchromatix_mot_s5k4h8_aux_hfr_12
 vendor/motorola/payton/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so \
 vendor/motorola/payton/proprietary/vendor/lib/libchromatix_imx386_mono_cpp_video_4k.so:system/vendor/lib/libchromatix_imx386_mono_cpp_video_4k.so \
 vendor/motorola/payton/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
-warning: wildcard libois_%s.so missing or broken
+#warning: wildcard libois_%s.so missing or broken
 vendor/motorola/payton/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
 vendor/motorola/payton/proprietary/vendor/lib/libflash_aw3643_front.so:system/vendor/lib/libflash_aw3643_front.so \
 vendor/motorola/payton/proprietary/vendor/lib/libflash_aw3643_rear.so:system/vendor/lib/libflash_aw3643_rear.so \
