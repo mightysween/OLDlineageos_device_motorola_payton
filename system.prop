@@ -1,0 +1,11 @@
+#media.stagefright.legacyencoder=1
+#media.stagefright.less-secure=1
+
+ro.build.model=moto x4
+ro.build.device=payton
+# for stock ROM
+ro.product.device=payton
+ro.product.model=moto x4
+ro.product.name=payton
+
+ro.hardware.keystore=sdm660
